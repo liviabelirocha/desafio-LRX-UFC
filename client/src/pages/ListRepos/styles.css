@@ -1,0 +1,55 @@
+.pageListRepos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageListRepos form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.pageListRepos button {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 0;
+  height: 2rem;
+  border-radius: 0.8rem;
+  background: #3850d9;
+  color: #fff;
+}
+
+.pageListRepos button:hover {
+  background: #7d8cdf;
+}
+
+.pageListRepos input {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  height: 2.4rem;
+  outline: 0;
+  border: 1px solid #3850d9;
+}
+
+.pageListRepos input:focus {
+  border-width: 2px;
+}
+
+.pageListRepos main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.pageListRepos .error div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
